@@ -12,12 +12,12 @@ experience_level:
 
 job_types:
   full_time: true
-  contract: false
-  part_time: false
+  contract: true
+  part_time: true
   temporary: true
   internship: false
   other: false
-  volunteer: true
+  volunteer: false
 
 date:
   all_time: false
@@ -26,22 +26,27 @@ date:
   24_hours: true
 
 positions:
-  - Software engineer
+  - Data engineer
+  - Sr Data engineer
+  - Azure Data engineer
 
 locations:
-  - Germany
+  - USA
+  - United States
+  - United States of America
+  - Canada
 
 apply_once_at_company: true
 
 distance: 100
 
 company_blacklist:
-  - wayfair
-  - Crossover
+  # - wayfair
+  # - Crossover
 
 title_blacklist:
-  - word1
-  - word2
+  # - word1
+  # - word2
 
 location_blacklist:
-  - Brazil
+  # - Brazil
